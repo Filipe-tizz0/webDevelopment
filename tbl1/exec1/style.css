@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(224, 222, 194);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.description{
+    padding: 2%;
+    border-width: 5px;
+    border-style: inset;
+    margin-bottom: 20px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
