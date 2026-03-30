@@ -5,10 +5,11 @@ const servidor = http.createServer((req, res) => {
 
     if (req.url === '/teste') {
 
-        if (req.method == 'GET'){
+        if (req.method == 'GET') {
             res.end("Muito bem, método permitido");
+        } else {
+            res.end("O Método que vocẽ escolheu está errado, o único método permitido é GET");
         }
-        res.end("O Método que vocẽ escolheu está errado, o único método permitido é GET");
     }
     else {
         res.end('Página não encontrada');

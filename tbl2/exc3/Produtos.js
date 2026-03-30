@@ -1,3 +1,9 @@
-class Products{
-    public let id;
+class Products {
+    constructor(id, nome, preco) {
+        this.id = id;
+        this.nome = nome;
+        this.preco = preco;
+    };
 }
+
+module.exports = Products;
