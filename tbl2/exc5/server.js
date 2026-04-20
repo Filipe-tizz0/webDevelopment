@@ -14,7 +14,7 @@ const servidor = http.createServer(async (req, res) => {
                 res.setHeader('Content-Type', 'application/json');
                 res.end(JSON.stringify(resultado.rows));
             } else {
-                res.end('ID ornecido não é um número');
+                res.end('ID fornecido não é um número');
             }
 
         } catch (erro) {
