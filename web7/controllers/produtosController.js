@@ -54,7 +54,7 @@ function deleteProduto(req, res) {
             erro: 'Produto não encontrado'
         });
     }
-    usuarios.splice(index, 1);
+    prods.splice(index, 1);
     res.json({
         sucesso: true,
         mensagem: 'Produto removido'
